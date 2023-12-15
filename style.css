@@ -370,6 +370,9 @@ footer div, footer i, footer h4, footer p , footer a{
     }
     .profile-box{
         width: 650px;
+    } 
+    header{
+        position: relative;
     }
 }
 
