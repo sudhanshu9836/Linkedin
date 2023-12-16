@@ -458,3 +458,34 @@ footer div, footer i, footer h4, footer p , footer a{
         display: none;
     }
 }
+@media screen  and (max-width: 560px) {
+    header{
+        position: relative;
+        left: 70px;
+        margin-top: -10px;
+    }
+    #main-icon{
+        position: relative;
+        left: 25px;
+    }
+    footer{
+        position: relative;
+        left: 50px;
+    }
+}
+@media screen and (max-width: 360px){
+    header{
+        left: 100px;
+    }
+    footer{
+        left: 100px;
+    }
+}
+@media screen and (max-width: 240px){
+    header{
+        left: 140px;
+    }
+    footer{
+        left: 130px;
+    }
+}
